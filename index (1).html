@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-container">
+      <h4>Workshop Registration</h4>
+      <form>
+      <u>Register Now while seats are available</u>
+      <fieldset>
+        <div class="lgroup">
+        <div>
+          <label for="fname">First Name*</label>
+          <input type="text" id="fname" placeholder="Enter First Name"/><br><br>
+          <label for ="lname">Last Name*</label>
+         <input type="text" id="lname"  placeholder="Enter Lastlast Name"/><br><br>
+         <label for="company">Company Institution*</label>
+         <input type="text" id="company" placeholder="Enter Institution name"/> <br><br>
+         <label for="address">Address*</label>
+         <textarea id="address"></textarea><br><br>
+         <label for="city">City*</label>
+         <input type="text" id="city"><br><br>
+         <label for="state">State/province/region*</label>
+         <select name="state" id="state" placeholder="select">
+           <option value=" ">-select-</option>
+           <option value="Ap">AP</option>
+           <option value="Ts">TS</option>
+           <option value="MP">MP</option>
+           <option value="UP">UP</option>
+           </select><br><br>
+         <label for="country">Country*</label>
+            <select name="country" id="country" placeholder="select">
+           <option value=" ">-select-</option>
+           <option value="India">India</option>
+           <option value="USA">USA</option>
+           <option value="UK">UK</option>
+           <option value="Kenada">Kenada</option>
+           </select><br><br>
+           <label for="email">Email*</label>
+           <input type="email" id="email" placeholder="Enter email"><br><br>
+           <label for ="phonenumber">phonenumber</label>
+           <input type="tel" id="phonenumber" placeholder="Enter phonenumber"><br><br>
+         <label for="file">Upload File</label>
+         <input type="file" id="file" placeholder="Upload file"/><br><br>
+       </div>
+         </div>
+         <div class="rgroup">
+           <div>
+             <u>Lunch</u><br><br>
+             <label for="meal">Meal Preference</label>
+             <select name="meal" id="meal">
+               <option value="">-select-</option>
+               <option value="vegeterian">vegeterian</option>
+               <option value="non-vegeterian">non-vegeterian</option>
+             </select><br><br>
+             <u>payment details</u><br><br>
+             <label for ="payment">Payment mode</label>
+             <ul type="none">
+            <li><input type="checkbox" id="checkbox">cash</li>
+             <li><input type="checkbox" id="checkbox">cheque</li>
+             <li><input type="checkbox" id="checkbox">Demand draft</li></ul><br><br>
+             <label for="cheque">DD/chequeno</label>
+             <input type="text" id="cheque" placeholder="Enter chequeno"/><br><br>
+             <label for="draw">Draw On(Bank Name)</label>
+             <input type="text" id="draw" placeholder="Enter bank name"/><br><br>
+             <label for="pay">payable at</label>
+             <input type="text" id="pay" placeholder="Enter payable"/><br><br>
+             <button>submit </button>
+             <input type="reset">
+            </div>
+         </div>
+         </div>
+          </fieldset>
+      </form>
+     </div>
+      </body>
+</html>
